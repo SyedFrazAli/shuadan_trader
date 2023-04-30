@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, camel_case_types, prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
 import 'package:shuadan_trader/screens/rSignup.dart';
-import 'package:shuadan_trader/screens/wSignup.dart';
+import 'package:shuadan_trader/screens/wholesalerSignup.dart';
 
 
 class screen3 extends StatefulWidget {
