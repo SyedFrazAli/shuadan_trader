@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, camel_case_types, prefer_const_constructors
+// ignore_for_file: file_names, camel_case_types, prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:pinput/pinput.dart';
 import 'package:flutter/material.dart';

@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:shuadan_trader/screens/otpScreen.dart';
-import 'package:shuadan_trader/screens/screen3.dart';
 
 class phoneScreen extends StatefulWidget {
   const phoneScreen({super.key});
@@ -54,7 +53,7 @@ class _phoneScreenState extends State<phoneScreen> {
                   filled: true,
                   fillColor: Colors.white,
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide.none,
                   )),
               initialCountryCode: "PK",
