@@ -38,23 +38,43 @@ class _loginScreenState extends State<loginScreen> {
           const SizedBox(
             height: 30,
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20, right: 20),
-            child: IntlPhoneField(
-              decoration: InputDecoration(
-                  labelText: "Enter Phone Number",
-                  filled: true,
-                  fillColor: Colors.white,
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide.none,
-                  )),
-              initialCountryCode: "PK",
-              onChanged: (phone) {
-                print(phone.completeNumber);
-              },
+            Padding(
+              padding: const EdgeInsets.only(left:20,right: 20),
+              child: Column(
+                children: [
+                  IntlPhoneField(
+                    decoration: InputDecoration(
+                        labelText: "Enter Phone Number",
+                        filled: true,
+                        fillColor: Colors.white,
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide.none,
+                        )),
+                    initialCountryCode: "PK",
+                    onChanged: (phone) {
+                      print(phone.completeNumber);
+                    },
+                  ),
+                      
+                       SizedBox(
+                              height: 20,
+                            ),
+                            TextField(
+                              obscureText: true,
+                              decoration: InputDecoration(
+                                  labelText: "Password",
+                                  filled: true,
+                                  fillColor: Colors.white,
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    borderSide: BorderSide.none,
+                                  )),
+                            ),
+                ],
+              ),
             ),
-          ),
+                   
           const SizedBox(
             height: 20,
           ),
